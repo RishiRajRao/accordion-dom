@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+}
+.list-top {
+  /*   color:white; */
+  background: #eee;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  margin: 0;
+}
+
+.list {
+  border-bottom: 1px solid #666666;
+}
+
+.list-bottom {
+  display: none;
+}
+
+.show {
+  display: block;
+}
